@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome to Shahd Page - Login</title>
+        <style>
+            body {
+                background-color: #2196f3;
+            }
+            .container {
+                background-color: #ffffff;
+                max-width: 500px;
+                margin: 0 auto;
+                padding: 40px;
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+                border-radius: 10px;
+                text-align: center;
+            }
+            input[type=text], input[type=password] {
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+            button {
+                background-color: #ff69b4;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+            button:hover {
+                background-color: #ff1493;
+            }
+            h2 {
+                color: #ff69b4;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h2>Welcome to Shahd Page</h2>
+            <form method="post" action="#">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username"><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password"><br>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </body>
+</html>
